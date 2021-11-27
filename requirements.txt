@@ -1,0 +1,16 @@
+Wand==0.6.7 
+chardet==4.0.0 
+pdfminer.six==20200517 
+pdfplumber==0.5.28 
+pycryptodome==3.11.0 
+sortedcontainers==2.4.0
+click==8.0.3 
+colorama==0.4.4 
+joblib==1.1.0 
+nltk==3.6.5 
+regex==2021.11.10 
+textblob==0.17.1 
+tqdm==4.62.3
+scikit==learn==1.0.1 
+sklearn==0.0 
+threadpoolctl==3.0.0
