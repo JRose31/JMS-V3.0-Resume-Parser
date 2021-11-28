@@ -34,6 +34,7 @@ def process_text(text):
     
     # Print out results in a dataframe
     tf_df = pd.DataFrame(tf_idf_sen.toarray(), columns = vectorizer.get_feature_names())
-    return tf_df
+    return pd.DataFrame({'Word': list(tf_df.columns),
+                         'Weight': [i for i in tf_df.iloc[0]]})
 
 print(process_text(doc_as_text))
